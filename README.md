@@ -1,36 +1,30 @@
-# README
+# Proyek Analisis Data: Bike Sharing
 
-## Proyek [Nama Proyek]
-
-Proyek ini adalah [deskripsi singkat tentang proyek].
-
-### Fitur
-
-* [Fitur 1]
-* [Fitur 2]
-* [Fitur 3]
+Proyek Analisis Data: Bike Sharing, submission course Belajar Analisis Data dengan Python - Dicoding.
 
 ### Instalasi
 
 1. Clone repository ini ke direktori lokal Anda.
-2. Jalankan perintah `npm install` atau `yarn install` untuk menginstal dependensi.
-3. Jalankan perintah `npm start` atau `yarn start` untuk menjalankan proyek.
+```
+git clone https://github.com/grnyoel/analisis-data-python-dicoding.git
+```
+2. Install dependencies
+```
+pip install streamlit
+pip install -r requirements.txt
+```
 
 ### Penggunaan
 
-* [Cara menggunakan fitur 1]
-* [Cara menggunakan fitur 2]
-* [Cara menggunakan fitur 3]
+1. Pindah ke directory dashboard
+```bash
+cd dashboard
+```
 
-### Kontribusi
+2. Jalankan streamlit
+```bash
+streamlit run dashboard.py
+```
 
-Kontribusi sangat dihargai. Jika Anda ingin berkontribusi, silakan buka issue atau pull request.
-
-### Lisensi
-
-Proyek ini dilisensikan di bawah [nama lisensi].
-
-### Kontak
-
-* Email: [alamat email]
-* GitHub: [alamat GitHub]
+## Sumber Dataset
+[Dataset](https://drive.google.com/file/d/1RaBmV6Q6FYWU4HWZs80Suqd7KQC34diQ/view)
